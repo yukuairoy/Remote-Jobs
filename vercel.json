@@ -5,7 +5,7 @@
       "src": "app.py",
       "use": "@vercel/python",
       "config": {
-        "pythonVersion": "3.9"
+        "pythonVersion": "3.8"
       }
     },
     {
@@ -21,7 +21,7 @@
   ],
   "build": {
     "env": {
-      "PYTHON_VERSION": "3.9"
+      "PYTHON_VERSION": "3.8"
     }
   }
 }
