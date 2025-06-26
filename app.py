@@ -66,6 +66,17 @@ def load_job_data():
                 'location': 'location',
                 'tag_ids': 'tag_ids'
             }
+        },
+        'invisible': {
+            'file': 'tagged/invisible_jobs_tagged.csv',
+            'map': {
+                'title': 'title',
+                'url': 'url',
+                'description': 'description_raw',
+                'salary': None,  # No salary column in invisible jobs
+                'location': 'location',
+                'tag_ids': 'tag_ids'
+            }
         }
     }
 
