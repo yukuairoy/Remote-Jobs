@@ -36,7 +36,7 @@ This application provides a simplified interface for:
 The application uses job data from 5 companies stored in CSV files:
 - `tagged/mercor_jobs_tagged.csv` - Mercor jobs
 - `tagged/afterquery_jobs_tagged.csv` - AfterQuery jobs  
-- `tagged/alignerr_jobs.csv` - Alignerr jobs
+- `tagged/alignerr_jobs_tagged.csv` - Alignerr jobs
 - `tagged/handshake_jobs_tagged.csv` - Handshake jobs
 - `tagged/outlier_jobs_tagged.csv` - Outlier jobs
 

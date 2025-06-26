@@ -35,7 +35,7 @@ def load_job_data():
             }
         },
         'alignerr': {
-            'file': 'tagged/alignerr_jobs.csv',
+            'file': 'tagged/alignerr_jobs_tagged.csv',
             'map': {
                 'title': 'title',
                 'url': 'absolute_url',
