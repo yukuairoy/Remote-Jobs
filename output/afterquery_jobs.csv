@@ -1,0 +1,387 @@
+Position,Category,Salary Range,Posted Date,Detail URL,Job Description,Required Skills,Responsibilities
+2025 Spring Growth Intern,Growth,$30 - $60/hr,"Apr 10, 2025",https://experts.afterquery.com/apply/growth-intern,"AfterQuery is seeking highly motivated undergraduate and graduate students for a remote internship focused on growth and outreach. This is not a typical internship — you'll work directly with our founding team on high-priority initiatives. Your work will directly impact our growth, from content creation to user acquisition.
+
+The internship begins with a 1-week trial, during which you'll be paid per successful referral. Performance during this period will determine whether you continue in the program. Interns who pass the trial will receive biweekly pay in addition to commission and take on a greater role in planning and executing growth campaigns.","Enrolled in an undergraduate or graduate program
+High agency - be independent and take initiative
+Excellent and quick communication (respond to messages in <1 hour)
+Attention to detail
+Demonstrated passion for startups, growth, or AI-related technologies","Be prepared to hustle and do things that aren't scalable to 10x the company
+Conduct outreach to undergraduate and graduate students through LinkedIn and Email
+Organize and execute creative growth campaigns
+Track campaign performance and suggest improvements
+Collaborate closely with the founding team and other interns on growth-related projects"
+Accountant Expert,Accounting,$35 - $75/hr,"Mar 24, 2025",https://experts.afterquery.com/apply/accountant,"This is a remote, part-time accounting role. You'll use Excel and PowerPoint to replicate the kinds of schedules, statements, and summary memos typical in corporate accounting, audit, and reporting. Projects are asynchronous and flexible, with ~10 hours/week expected when active.","Strong understanding of Accrual/Cash-Based Accounting and Excel modeling of accounting workflows
+Experience preparing or reviewing financial statements
+Excited to improve the future of AI applications","Build Excel schedules for journal entries, revenue recognition, depreciation, tax adjustments, and more
+Create PowerPoint decks summarizing financial statement changes, internal control issues, accounting policy impacts, and more
+Simulate closing entries, audit memos, and reporting packages"
+AfterQuery Expert,General,Undisclosed,"Feb 28, 2025",https://experts.afterquery.com/apply/general,General AQ App,,
+AI Model Vulnerability Bounty Program,Safety,Bounty Based,"Apr 17, 2025",https://experts.afterquery.com/apply/ai-bounty-program,"AfterQuery is launching an AI Security Bounty Program focused on discovering vulnerabilities in state-of-the-art AI language models. Our mission is to test and improve AI safety guardrails by identifying novel jailbreak methods and model vulnerabilities before they can be exploited in real-world scenarios.
+
+
+Bounty Structure
+This is a performance-based program with rewards tied directly to the severity and novelty of discovered vulnerabilities. We are giving away $100-$5,000 bounties from our total bounty pool of $50,000.
+
+
+Ethics and Responsible Disclosure
+All research must be conducted ethically and responsibly. We expect:
+No sharing of vulnerabilities outside our secure reporting system
+No exploitation of discovered vulnerabilities for harmful purposes
+Respect for user privacy and data protection principles","Strong understanding of LLMs and their limitations
+Creative problem-solving skills and lateral thinking
+Experience in adversarial thinking, security testing, or red-teaming
+Excellent written communication skills for documenting findings
+Ethical approach to vulnerability research","Develop novel jailbreak techniques that bypass safety guardrails
+Explore prompt injection vulnerabilities
+Identify methods to extract sensitive information from models
+Create techniques that induce unintended or harmful outputs
+Engineer adversarial attacks that compromise model behavior
+Design creative ways to circumvent content filtering systems"
+Associate Consultant Expert,Consulting,$40 - $80/hr,"Mar 24, 2025",https://experts.afterquery.com/apply/associate-consultant,"This is a remote, part-time consultant role. You'll produce materials and analyses similar to those created by consultants at top-tier firms. Projects are asynchronous and flexible, with ~10 hours/week expected when active.","Strong proficiency in Excel and PowerPoint for strategy-related tasks
+Familiarity with top consulting frameworks and slide structuring
+Excited to improve the future of AI applications","Create consulting-style PowerPoint decks, including market sizing, competitor benchmarking, and operational strategy, and build Excel based market models
+Build Excel models that support cost breakdowns, profitability analyses, and business case frameworks
+Conduct in-depth qualitative and quantitative analyses to diagnose challenges, identify key insights, and support data-driven strategic recommendations."
+Biology PhD Expert,Biology,$45 - $65/hr,"Apr 12, 2025",https://experts.afterquery.com/apply/biology-phd-expert,"AfterQuery is looking for a Biology PhD Expert to design, evaluate, and refine biology-centric prompts for our cutting-edge AI projects. In this remote, flexible role, you'll develop high-quality questions that mirror real-world scenarios in biomedical research, clinical medicine, and biotechnology while scrutinizing model responses for scientific accuracy. Your expert insights will help enhance our AI's ability to understand and process complex biological concepts.","PhD or equivalent expertise in Biology, Medicine, Biochemistry, Pharmacology, Genetics, Molecular Biology, or a related field.
+At least 2 years of research or industry experience in academic, clinical, or biotech settings.
+Strong analytical skills with a proven ability to evaluate experimental data, scientific claims, and complex research findings.","Create well-crafted biology questions across various topics such as genetics, molecular biology, pharmacology, and bioinformatics to challenge and improve AI reasoning.
+Validate model solutions for accuracy and rigor, ensuring that each prompt demands analytical thinking and thorough scientific understanding.
+Provide detailed feedback and suggestions to continually improve the quality and educational value of our question set."
+Business Intelligence Expert (Global),Corporate Development,$15 - $20/hr,"Jun 24, 2025",https://experts.afterquery.com/apply/bi-expert-global,"This position is ONLY for candidates NOT based in the US, Canada or EU. Those who are, please apply to the US/EU position. Students are welcome to apply.
+This is a remote, part-time business intelligence role. You'll produce and evaluate sales reports, KPI dashboards, competitor analyses, market research data, and performance metrics. You will create step-by-step instructions on how to achieve conclusions based on tables and charts. Projects are asynchronous and flexible, with ~10 hours/week expected when active.","Strong proficiency in Excel and PowerPoint for strategy-related tasks
+Familiarity with consulting frameworks and slide structuring
+Excited to improve the future of AI applications","Answer questions & create detailed reasoning summaries based off sales reports, KPI dashboards, competitor analyses, market research data, and performance metrics
+Write in-depth lists of ""instructions"" for analyzing tables and charts
+Maintain consistent formatting and style across a large set of input and output data"
+Business Intelligence Expert (US/EU ONLY),Corporate Development,$25 - $40/hr,"Jun 24, 2025",https://experts.afterquery.com/apply/bi-expert,"This position is ONLY for US and EU based candidates. Others, please apply to the Global position. Students are welcome to apply.
+This is a remote, part-time business intelligence role. You'll produce and evaluate sales reports, KPI dashboards, competitor analyses, market research data, and performance metrics. You will create step-by-step instructions on how to achieve conclusions based on tables and charts. Projects are asynchronous and flexible, with ~10 hours/week expected when active.","Strong proficiency in Excel and PowerPoint for strategy-related tasks
+Familiarity with consulting frameworks and slide structuring
+Excited to improve the future of AI applications","Answer questions & create detailed reasoning summaries based off sales reports, KPI dashboards, competitor analyses, market research data, and performance metrics
+Write in-depth lists of ""instructions"" for analyzing tables and charts
+Maintain consistent formatting and style across a large set of input and output data"
+Chemistry PhD Expert,Chemistry,$45 - $65/hr,"Apr 12, 2025",https://experts.afterquery.com/apply/chemistry-phd-expert,"AfterQuery is seeking a Chemistry PhD Expert to help design and evaluate challenging chemistry problems that train and refine our AI models. In this flexible, remote role, you will create authentic, thought-provoking prompts based on real-world chemical principles and apply your deep expertise to assess model responses. You'll play a vital role in bridging the gap between advanced chemical research and next-generation AI capabilities while working on project-based assignments with adaptable hours.","PhD in Chemistry, Chemical Engineering, Biochemistry, or a related field.
+A minimum experience of 2 years in academic research, industrial R&D, or applied chemistry settings.
+Exceptional analytical, experimental design, and critical writing skills, with the ability to interpret complex data accurately.","Develop and refine comprehensive chemistry questions that encourage logical reasoning and problem-solving.
+Evaluate model answers for scientific rigor and accuracy, ensuring alignment with current chemical theories and practices.
+Provide detailed feedback to improve both question quality and the AI's understanding of complex chemical concepts."
+Competitive Programming Expert (Independent Contractor),Coding,$30 - $60/hr,"Mar 30, 2025",https://experts.afterquery.com/apply/competitive-programmer,"We are seeking exceptional competitive programmers (top 1% LeetCode users, ICPC Nationals, Codeforces Master, USACO Gold) to join our research project in collaboration with a leading AI lab. This is a flexible remote position requiring 10-20 hours of work per week.","You are a top 1% LeetCode user, ICPC Nationals participant, Codeforces Master, or in the USACO Gold division
+Exceptional problem-solving skills with data structures and algorithms
+Excellent written communication skills for documenting solutions","Solve complex competitive programming problems that challenge current AI models
+Design original competitive programming problems
+Evaluate AI model performance on competitive programming problems
+Provide detailed feedback on AI solutions
+Implement efficient, optimized code solutions that demonstrate programming best practices"
+Corporate Development / M&A Analyst Expert,Corporate Development,$40 - $100/hr,"Mar 25, 2025",https://experts.afterquery.com/apply/corp-dev-mna,"Join our part-time Corporate Development / M&A Analyst pool to assist with acquisitions, divestitures, and strategic investments.
+This role involves building complex models in Excel—ranging from pro forma statements to synergy calculations—and creating polished board presentations in PowerPoint that articulate the strategic rationale and integration approach.
+You will work directly with leadership teams to evaluate potential deals, analyze market trends, and support due diligence on high-impact transactions.
+
+As part of AfterQuery's effort to create world-class AI training data, you'll simulate real-world corp dev workflows, ensuring your deliverables represent the depth and rigor of top-tier M&A processes.","Experience in M&A, investment banking, or corporate development
+Advanced Excel modeling for valuations, synergy calculations, and scenario analysis
+Strong PowerPoint skills for executive/board presentations, including data visualization","Develop detailed Excel models for valuation, synergy analysis, and pro forma projections
+Draft investment memos and board-level presentations using PowerPoint
+Conduct industry research and target screening to inform M&A strategy
+Collaborate with cross-functional teams to refine transaction rationale and integration plans"
+Data Analyst Expert,Data Analysis,$35 - $75/hr,"Mar 24, 2025",https://experts.afterquery.com/apply/data-analyst,"This is a remote, part-time data analyst role. You'll build Excel models that simulate the work data analysts perform in real business settings—ranging from dashboarding and trend analysis to KPI tracking and reporting. Work is asynchronous and project-based, with ~10 hours/week expected for active projects.","Experience in data analysis, business intelligence, or analytics
+Proficiency in Excel (pivot tables, charts, formulas)
+Familiarity with business metrics and insight-driven reporting","Build Excel dashboards, trend analyses, and summary tables for real-world business scenarios
+Simulate workflows like weekly reporting, cohort analysis, and ad hoc business questions
+Translate unstructured prompts into clean, logical data stories"
+eCommerce Expert (Global),Ecommerce,$15 - $20/hr,"Jun 24, 2025",https://experts.afterquery.com/apply/ecom-expert-global,"This is a remote, part-time role focused on e-commerce data. You'll work with product catalogs, pricing comparisons, inventory tables, customer behavior data, and sales analytics. Your task is to write problem sets with detailed answer reasoning based on these materials. Projects are asynchronous and flexible, with ~10 hours/week expected when active.","Strong understanding of e-commerce and digital retail systems
+Proficiency in Excel or Google Sheets for table analysis
+Excited to improve the future of AI applications","Write problem sets with detailed reasoning based on sales and inventory data
+Analyze customer behavior and pricing data, generating explanation-rich answers
+Ensure consistency and clarity in all written instructions and outputs"
+eCommerce Expert (US/EU ONLY),Ecommerce,$25 - $40/hr,"Jun 24, 2025",https://experts.afterquery.com/apply/ecom-expert,"This position is for students based in the US, Canada and the EU ONLY. All others, please apply to the Global position.
+This is a remote, part-time role focused on e-commerce data. You'll work with product catalogs, pricing comparisons, inventory tables, customer behavior data, and sales analytics. Your task is to write problem sets with detailed answer reasoning based on these materials. Projects are asynchronous and flexible, with ~10 hours/week expected when active.","Strong understanding of e-commerce and digital retail systems
+Proficiency in Excel or Google Sheets for table analysis
+Excited to improve the future of AI applications","Write problem sets with detailed reasoning based on sales and inventory data
+Analyze customer behavior and pricing data, generating explanation-rich answers
+Ensure consistency and clarity in all written instructions and outputs"
+Environmental Science Expert (Global),Environmental Science,$15 - $20/hr,"Jun 25, 2025",https://experts.afterquery.com/apply/env-sci-global,"This position is for experts OUTSIDE the US, Canada and the EU. All others, please apply to the 'US/EU ONLY' position.
+This is a remote, part-time annotation role for environmental science data. You'll interpret and explain tables covering climate metrics, pollution levels, biodiversity stats, and resource consumption trends. You'll write problem sets and answer reasoning with precision and scientific clarity.","Familiarity with environmental datasets and scientific data interpretation
+Ability to write clearly about quantitative patterns
+Excited to improve the future of AI applications","Create explanations and reasoning based on environmental data tables
+Write structured instructions for analyzing complex scientific charts
+Ensure scientific accuracy and consistency across all output"
+Environmental Science Expert (US/EU ONLY),Environmental Science,$25 - $40/hr,"Jun 25, 2025",https://experts.afterquery.com/apply/env-sci-expert,"This position is for those based in the US, Canada and EU ONLY. All others, please apply to the 'Global' position.
+This is a remote, part-time annotation role for environmental science data. You'll interpret and explain tables covering climate metrics, pollution levels, biodiversity stats, and resource consumption trends. You'll write problem sets and answer reasoning with precision and scientific clarity.","Familiarity with environmental datasets and scientific data interpretation
+Ability to write clearly about quantitative patterns
+Excited to improve the future of AI applications","Create explanations and reasoning based on environmental data tables
+Write structured instructions for analyzing complex scientific charts
+Ensure scientific accuracy and consistency across all output"
+"Finance Expert (International, CONTRACT POSITION)",Finance,Estimated $15 - $20/hr,"Jun 19, 2025",https://experts.afterquery.com/apply/finance-global-ugrad,"We're looking for international finance experts who have a strong understanding of core principles in finance and accounting, Excel modeling, and have taken at least a year of college-level finance courses.
+
+The work is fully asynchronous and can be done around your schedule
+You must be able to commit at least 10-20 hours per week for this role
+Successful contributions will increase your odds of being selected on future projects or full-time positions
+This position will require an assessment and an identity verification to be accepted.","At least one year of finance courses taken at the undergraduate level
+Deep understanding of core principles in finance and accounting
+Ability to analyze financial forms and create Excel data visualizations","Analyze 10-K, 10-Q, and other financial forms
+Design problems related to financial processes
+Create sets of questions and answers based off online financial materials"
+Finance Expert (US/EU ONLY),Finance,Estimated $30 - $40/hr,"Jun 19, 2025",https://experts.afterquery.com/apply/finance-us-students,"We're looking for US and EU based finance students who have a strong understanding of core principles in finance and accounting, Excel modeling, and have taken at least a year of college-level finance courses.
+
+The work is fully asynchronous and can be done around your schedule
+You must be able to commit at least 10-20 hours per week for this role
+Successful contributions will increase your odds of being selected on future projects or full-time positions
+This position will require an assessment and an identity verification to be accepted. We are currently unable to sponsor any visas, H-1B or OPT.","At least one year of finance courses taken at the undergraduate level
+Deep understanding of core principles in finance and accounting
+Ability to analyze financial forms and create Excel data visualizations","Analyze 10-K, 10-Q, and other financial forms
+Design problems related to financial processes
+Create sets of questions and answers based off online financial materials"
+"Finance Expert (US/EU Professionals, CONTRACT POSITION)",Finance,Estimated $50 - $60/hr,"Jun 19, 2025",https://experts.afterquery.com/apply/finance-us-pros,"We're looking for US and EU based finance professionals who have a strong understanding of core principles in finance and accounting, Excel modeling, and have at least one year of high-level professional experience.
+
+The work is fully asynchronous and can be done around your schedule
+You must be able to commit at least 10-20 hours per week for this role
+Successful contributions will increase your odds of being selected on future projects or full-time positions
+This position will require an assessment and an identity verification to be accepted. We are currently unable to sponsor any visas, H-1B or OPT.","At least a four-year degree in finance, business administration, or a related field
+At least one year of experience in investment banking, private equity, venture capital, corporate FP&A, infrastructure / energy project-finance, real estate acquisitions or REITs, or SaaS finance
+Strong understanding of the core principles in finance and accounting","Analyze 10-K, 10-Q, and other financial forms and slide decks
+Design problem sets related to financial processes
+Create sets of questions and answers based off online financial materials"
+Full-stack Software Engineer,Coding,$30 - $60/hr,"Mar 13, 2025",https://experts.afterquery.com/apply/software,"We're seeking skilled full-stack engineers to work on a variety of web and mobile application projects.
+You'll collaborate with a team of talented developers to build robust, scalable solutions.","Experience with cloud services (AWS, Azure, GCP)
+Familiarity with DevOps practices and CI/CD pipelines
+Contributions to open-source projects","Develop frontend and backend components for web and mobile applications
+Write clean, maintainable, and efficient code
+Collaborate with designers and other engineers on feature implementation"
+Government/Public Policy Data Expert (Global),Data Analysis,$15 - $20/hr,"Jun 25, 2025",https://experts.afterquery.com/apply/gov-policy-intl,"This position is for experts based OUTSIDE the US, Canada, or the EU. All experts based in those regions, please apply to the 'US/EU ONLY' position.
+This is a remote, part-time policy analysis role. You'll work on datasets related to demographics, public budgeting, and economic indicators. You'll create educational problem sets and explanations based on data that informs public policy.","Familiarity with public datasets like census and economic reports
+Ability to draw clear conclusions from complex datasets
+Excited to improve the future of AI applications","Write explanations for data-driven insights in public datasets
+Build logical, well-documented instructions for interpreting tables
+Focus on clarity, accessibility, and structured formatting"
+Government/Public Policy Data Expert (US/EU ONLY),Data Analysis,$25 - $40/hr,"Jun 25, 2025",https://experts.afterquery.com/apply/gov-policy-expert,"This position is for those based in the US, Canada and EU ONLY. All others, please apply to the 'Global' position.
+This is a remote, part-time policy analysis role. You'll annotate datasets related to demographics, public budgeting, and economic indicators. You'll create educational problem sets and explanations based on data that informs public policy.","Familiarity with public datasets like census and economic reports
+Ability to draw clear conclusions from complex datasets
+Excited to improve the future of AI applications","Write explanations for data-driven insights in public datasets
+Build logical, well-documented instructions for interpreting tables
+Focus on clarity, accessibility, and structured formatting"
+Healthcare Analyst Expert,Healthcare,$35 - $80/hr,"Mar 25, 2025",https://experts.afterquery.com/apply/healthcare-analyst,"As a part-time Healthcare Analyst, you'll work on projects that replicate real-world tasks
+such as patient census forecasting, cost-benefit analyses for new service lines, or reimbursement modeling under different payer contracts.
+You'll translate the complex data into meaningful Excel dashboards and produce PowerPoint summaries that inform leadership or clinical teams
+about operational performance or financial viability.
+
+By simulating these activities, you enable AfterQuery's AI training to capture the unique nuances of the healthcare industry, from regulatory
+constraints to evolving reimbursement models.","Healthcare or related experience (hospital systems, payers, or consulting)
+Advanced Excel capabilities in forecasting, pivot table usage, and scenario building
+Skill in creating clear, data-driven presentations in PowerPoint","Construct Excel-based models for patient volumes, reimbursements, or cost breakdowns
+Develop PowerPoint decks detailing operational or financial insights for leadership
+Incorporate factors like payer mix, regulatory changes, and acuity levels into analyses
+Collaborate with relevant stakeholders to refine recommendations and confirm data accuracy"
+HR Analyst Expert,Hr,$35 - $75/hr,"Mar 24, 2025",https://experts.afterquery.com/apply/hr-analyst,"This is a remote, part-time HR analyst role. You'll build Excel models and PowerPoint presentations that replicate the analytical and reporting tasks typical in human resources functions. Projects include compensation analysis, headcount planning, and employee engagement tracking. Work is asynchronous and project-based, with ~10 hours/week expected per project.","Background in Human Resources, People Analytics, or Organizational Strategy
+Proficiency in Excel and PowerPoint for HR reporting and planning
+Familiarity with key HR metrics (turnover, compensation bands, engagement)
+Excited to improve the future of AI applications","Build Excel-based workforce planning tools, turnover analysis, and compensation benchmarking
+Create PowerPoint decks summarizing HR metrics, KPI reporting, or organizational design
+Simulate internal HR reporting workflows, headcount models, and performance-tracking frameworks"
+Lead Security Engineer (non-US),Security-Engineer,Undisclosed,"Apr 17, 2025",https://experts.afterquery.com/apply/lead-securityengineer,"AfterQuery is hiring exceptional Lead Security Engineers for a special project in partnership with one of the top AI model labs. Your work will directly contribute to advancing the coding abilities of the world's best large language models (LLMs) by creating high-quality vulnerability benchmark examples. In this role, you will leverage your expertise in security analysis and remediation to help us assess and review detailed benchmark ""rows"" (each row representing a fully annotated vulnerability case) drawn from pre-existing repositories. To be eligible, you need to be able to start working as soon as possible and be able contribute 20 hours+ from the 21st to the 27th of April.","Security Engineering Experience: 2-3+ years Proven experience identifying and fixing software vulnerabilities across real-world codebases.
+Programming Proficiency: Strong coding skills in at least one major language (e.g., Python, JavaScript, C/C++, or Java).
+Time Commitment: Available to start ASAP contribute 20 hours+ from the 21st to the 27th of April.","Vulnerability Analysis: Identify and analyze security vulnerabilities (e.g., OWASP Top 10, CWE Top 25, injection flaws, memory safety issues) within pre-existing repositories.
+Golden Patch Creation: Develop secure, effective patches that resolve the identified vulnerabilities without compromising functionality.
+Test Case Development: Design test cases that clearly demonstrate the presence of the vulnerability in the original code and verify its elimination post-remediation.
+Detailed Annotation: Document each benchmark row with clear descriptions, including vulnerability type, severity levels, and a comprehensive explanation of both the vulnerability's impact and the applied fix."
+Legal / Compliance Analyst (Reporting-Focused) Expert,Legal,$35 - $75/hr,"Mar 25, 2025",https://experts.afterquery.com/apply/legal-compliance-analyst,"In this part-time Legal / Compliance Analyst role, you'll replicate the day-to-day reporting and auditing tasks
+of corporate legal teams or compliance departments. Projects typically involve creating Excel checklists for regulatory deadlines,
+maintaining logs of outstanding issues, and summarizing key legal or policy changes in clear PowerPoint decks for leadership.
+
+By providing thorough, realistic samples of compliance processes, you will support AfterQuery's goal of training AI to navigate
+real-world legal and regulatory complexities.","Previous experience with compliance, legal operations, or audit functions
+Proficiency in Excel for scheduling, tracking, and risk logs
+Skilled in creating concise and clear PowerPoint presentations for non-legal audiences","Develop Excel tools for tracking compliance deadlines, risk items, and resolution status
+Create PowerPoint decks summarizing legal risks, policy changes, and recommended actions
+Ensure data accuracy and maintain strict data privacy standards
+Coordinate with stakeholders to gather documentation or approvals"
+Legal JD Expert,Legal,$40 - $80/hr,"Apr 13, 2025",https://experts.afterquery.com/apply/legal-jd-expert,"AfterQuery is seeking Legal JD Experts to create and refine legal reasoning challenges for our AI training modules. In this remote, flexible role, you will design and evaluate legal scenarios that test the AI's ability to interpret and apply complex legal principles, ensuring that our models can navigate real-world legal issues with precision and nuance. Your expertise will help bridge the gap between rigorous legal practice and innovative AI solutions, making a tangible impact on the future of legal technology.","Juris Doctor (JD) degree from an accredited law school.
+Proven experience in legal practice, research, or academia with a robust understanding of various legal disciplines.
+Exceptional analytical, written, and verbal communication skills, with a keen eye for detail.","Develop high-quality legal questions and case studies that challenge AI models on topics such as contract law, constitutional law, intellectual property, and more.
+Evaluate and validate model responses, offering detailed feedback to ensure logical consistency and adherence to legal principles.
+Collaborate with a team of legal and technical experts to fine-tune question difficulty and ensure content is both challenging and educational."
+Machine Learning PhD Expert,Ml Research,$35 - $75/hr,"Apr 13, 2025",https://experts.afterquery.com/apply/machine-learning-phd-expert,"AfterQuery is looking for a Machine Learning PhD Expert to develop and evaluate rigorous machine learning challenges for our cutting-edge AI systems. In this remote, flexible role, you'll design innovative prompts that mirror real-world machine learning problems and critically assess the model-generated solutions for accuracy and depth. Your expertise will drive improvements in AI training, ensuring our prompts reflect the latest research trends and practical applications in the field.","PhD in Machine Learning, Computer Science, or a closely related field with a strong research background.
+A minimum of 2 years of experience in machine learning research or applied projects within an academic or industry setting.
+Deep understanding of machine learning algorithms, deep learning frameworks, and model evaluation techniques.","Design high-quality, technically challenging ML problems that emphasize advanced algorithmic reasoning and practical applications.
+Evaluate and validate model responses to ensure scientific rigor and accuracy in machine learning concepts.
+Collaborate with our team to refine problem difficulty, ensuring balanced engagement across diverse expertise levels.
+Provide actionable feedback to continuously enhance the quality and effectiveness of AI training datasets."
+Marketing Analyst Expert,Marketing,$35 - $70/hr,"Mar 24, 2025",https://experts.afterquery.com/apply/marketing-analyst,"This is a remote, part-time marketing role focused on building Excel-based marketing performance dashboards and PowerPoint campaign summaries. You'll produce outputs similar to those used by marketing teams. Projects are asynchronous and flexible, with ~10 hours/week expected when active.","Background in marketing analytics, brand strategy, or growth marketing
+Strong proficiency in Excel and PowerPoint for marketing use cases
+Familiarity with KPIs, paid media metrics, and funnel logic
+Excited to improve the future of AI applications","Create Excel models including channel performance (ROAS, CPA, CTR), cohort analysis, attribution modeling
+Build polished PowerPoint decks that simulate campaign retros, brand strategy plans, go-to-market proposals, and more
+Construct frameworks for customer segmentation, funnel optimization, and A/B testing"
+Math Expert,Mathematics,$40 - $48/hr,"Mar 30, 2025",https://experts.afterquery.com/apply/math-expert,"This is a remote, part-time math-related role. You'll help benchmark and improve AI models by solving and analyzing challenging math and data problems. Work is asynchronous and flexible, with ~10 hours/week expected when active.","Strong proficiency in Mathematics
+Degree (completed or expected) in Mathematics, Computer Science, Engineering, or related-field
+Excited to improve the future of AI applications","Analyze and solve advanced mathematical problems involving combinatorics, algebra, geometry, and number theory with speed and accuracy
+Identify logical flaws in complex solutions and provide clear, concise corrections and justifications
+Design and evaluate creative, constraint-based mathematical challenges, ensuring rigor and uniqueness in solutions"
+Math Olympiad Expert,Mathematics,$40 - $60/hr,"Apr 13, 2025",https://experts.afterquery.com/apply/math-olympiad-expert,"AfterQuery is seeking Math Olympiad Experts to develop and assess mathematically rigorous challenges tailored for our advanced AI models. In this remote, project-based role, you will design and refine problems that echo the high-level reasoning demanded by international math competitions, ensuring our AI systems are pushed to achieve precise analytical thought processes. Your experience in prestigious math competitions will be invaluable in elevating the quality of our training datasets.","Proven participation in the International Math Olympiad (or reasonably similar level) within the past 10 years, demonstrating a high level of mathematical proficiency.
+Ideally, a medalist or distinction recipient from the Math Olympiad, showcasing exceptional problem-solving skills.
+Strong English proficiency, both written and verbal, to ensure clear communication of problem statements and feedback.","Create and fine-tune challenging math problems that reflect the complexity and depth typical of international math competitions.
+Evaluate and validate AI-generated solutions, providing insightful feedback to improve accuracy and logical coherence.
+Collaborate with the team to adjust problem difficulty levels to suit various stages of AI model training."
+Math PhD Expert,Mathematics,$40 - $60/hr,"Apr 13, 2025",https://experts.afterquery.com/apply/math-phd-expert,"AfterQuery is seeking Math PhD Experts to drive the development and assessment of high-level mathematical challenges for our AI training modules. In this remote, flexible role, you'll work alongside top AI researchers to design and validate problems that test and enhance advanced reasoning in areas such as analysis, algebra, and topology. Your deep expertise in mathematics will be pivotal in ensuring our models tackle complex problem-solving with academic rigor and innovative precision.","PhD in Mathematics or a closely related field with demonstrable expertise in advanced mathematical concepts.
+Strong analytical and problem-solving skills coupled with exceptional written and verbal communication abilities.
+Proven experience in academic research, teaching, or high-level mathematical problem solving.","Develop, refine, and validate challenging math problems spanning graduate-level topics such as Analysis, Modern Algebra, Topology, Geometry, Numerical Analysis, Combinatorics, and more.
+Collaborate with AI researchers to align problem difficulty and scope with real-world applications and current academic standards.
+Provide detailed, actionable feedback on problem solutions to enhance the AI's analytical capabilities and logical reasoning."
+Medical Data Analyst (Global),Data Analysis,$15 - $20/hr,"Jun 25, 2025",https://experts.afterquery.com/apply/med-data-global,"This position is for experts based OUTSIDE the US, Canada, and EU. All experts based in those regions, please apply to the 'US/EU ONLY' position.
+This is a remote, part-time role in medical data annotation. You'll interpret medical tables such as clinical trial results, lab reports, and treatment comparisons. You'll write problem sets and explanations to help train medical reasoning in AI systems.","Ability to interpret medical tables and statistical results
+Familiarity with medical terminology and study design
+Excited to improve the future of AI applications","Write explanations based on clinical or lab-based data
+Generate instruction-based reasoning to evaluate medical tables
+Follow a high standard of accuracy and documentation"
+Medical Data Analyst (US/EU ONLY),Data Analysis,$25 - $40/hr,"Jun 25, 2025",https://experts.afterquery.com/apply/med-analyst,"This position is for experts based in the US, Canada, or EU ONLY. All others, please apply to the 'Global' position.
+This is a remote, part-time role in medical data annotation. You'll interpret medical tables such as clinical trial results, lab reports, and treatment comparisons. You'll write problem sets and explanations to help train medical reasoning in AI systems.","Ability to interpret medical tables and statistical results
+Familiarity with medical terminology and study design
+Excited to improve the future of AI application","Write explanations based on clinical or lab-based data
+Generate instruction-based reasoning to evaluate medical tables
+Follow a high standard of accuracy and documentation"
+Medical MD Expert,Healthcare,$40 - $80/hr,"Apr 13, 2025",https://experts.afterquery.com/apply/medical-md-expert,"AfterQuery is searching for Medical MD Experts to design and evaluate complex medical scenarios that drive the training of our advanced AI systems. In this remote, flexible role, you will craft case studies and decision-making challenges that reflect real-world clinical and healthcare dilemmas. Your deep clinical expertise will be essential in ensuring our AI models can navigate the nuanced world of medical practice with accuracy, empathy, and up-to-date knowledge.","Medical Doctor (MD) degree from an accredited institution with current licensure in a recognized jurisdiction.
+Proven clinical or academic experience that demonstrates expertise in modern medical practices and healthcare delivery.
+Exceptional analytical, written, and verbal communication skills, with the ability to articulate complex medical scenarios clearly.","Develop detailed medical case studies and clinical scenarios that challenge AI models to make informed, nuanced decisions.
+Evaluate AI-generated responses for clinical accuracy, logical consistency, and adherence to current medical guidelines.
+Collaborate with a cross-functional team to refine case difficulty and ensure the content reflects real-world medical challenges and best practices."
+Nonprofit / Impact Analyst Expert,Nonprofit,$30 - $70/hr,"Mar 25, 2025",https://experts.afterquery.com/apply/nonprofit-impact-analyst,"As a part-time Nonprofit / Impact Analyst, you'll replicate tasks such as setting up donor segmentation models,
+tracking fundraising progress against goals, and computing the ROI of specific initiatives. You'll build Excel-based dashboards and
+produce PowerPoint decks that translate these metrics into compelling narratives about the organization's mission and achievements.
+
+By contributing these workflow examples, you'll help AfterQuery enrich its AI training datasets with the unique constraints and
+objectives of nonprofit organizations—ranging from grant reporting to community outreach evaluation.","Experience in nonprofit or social impact analytics
+Advanced Excel for budgeting, forecasting, or ROI analyses
+Strong PowerPoint storytelling skills geared toward donors, boards, or executives","Develop Excel models for donor segmentation, fundraising tracking, and impact metrics
+Create PowerPoint presentations highlighting program outcomes, success stories, and challenges
+Analyze and visualize data to guide resource allocation decisions and strategic planning
+Collaborate with nonprofit leadership to ensure data accuracy and mission alignment"
+Physics PhD Expert,Physics,$45/hr,"Apr 12, 2025",https://experts.afterquery.com/apply/physics-phd-expert,"AfterQuery is searching for a Physics PhD Expert to craft, review, and enhance physics-related reasoning problems to advance our AI labs. In this remote, flexible position, you will develop high-quality, real-world physics questions and verify the logical consistency of model responses. Your advanced expertise in physics will be crucial for ensuring that our AI systems accurately interpret and solve complex physics challenges while adhering to current scientific principles.","PhD in Physics or a related discipline such as Astronomy, Astrophysics, or Engineering Physics
+At least 2 years of experience in academic research, teaching, or applied physics environments
+Strong analytical skills with the ability to interpret complex phenomena and communicate scientific concepts effectively","Design well-structured, undergraduate to advanced-level physics questions that challenge reasoning and conceptual understanding
+Validate solution accuracy and refine problem difficulty, ensuring each prompt promotes critical thinking over mere computation
+Analyze model responses, offering detailed feedback to improve clarity and scientific rigor in test items"
+PowerPoint Expert (To Start Immediately),Powerpoint,$30 - $70/hr,"May 9, 2025",https://experts.afterquery.com/apply/ppt-expert,"You must be able to start immediately and work 6-8 hours over the next two days. This role is ideal for candidates with advanced PowerPoint skills who can build clean, complex presentations, analyze and interpret data, and generate a narrative. We are agnostic to your background and look for a diverse set of candidates from different industries.","Strong proficiency in PowerPoint, including formatting, data visualization, graphic design, charts, etc.
+Attention to detail and ability to design clear, error-free presentations
+Ability to communicate modeling logic and walk others through your work","Build detailed and professional-grade PowerPoint presentations based on Excel data analyses
+Parse complex data and conclusions to clearly communicate actionable insights
+Design intuitive templates, trackers, or dashboards tailored to specific business use cases"
+Product Management (Analytics-Focused) Expert,Product Management,$40 - $90/hr,"Mar 25, 2025",https://experts.afterquery.com/apply/pm-analytics,"In this part-time, analytics-focused Product Management role, you'll use Excel to gather data from multiple sources,
+refine it into actionable metrics, and evaluate the viability of product features or enhancements. Projects may involve user funnel
+analyses, A/B test interpretations, or investigating market opportunities for new feature sets.
+
+You will also craft PowerPoint decks that present these insights to cross-functional teams, ensuring they have a clear understanding of
+roadmap priorities, high-level KPIs, and potential ROI. Your deliverables will closely mimic real-world product decision-making workflows,
+reinforcing AfterQuery's mission to provide high-quality AI training data.","Proven track record in product analytics or data-driven product management
+Advanced Excel usage for scenario modeling and data analysis
+Excellent PowerPoint presentation and storytelling skills","Conduct market and user behavior analyses in Excel (e.g., cohort retention, cost of acquisition)
+Produce product feature cost-benefit or ROI models for internal review
+Develop PowerPoint decks for product vision, roadmap proposals, and KPI updates
+Collaborate with engineers, designers, and other stakeholders to align priorities"
+Project Management Expert,Project Management,$35 - $75/hr,"Mar 25, 2025",https://experts.afterquery.com/apply/pmo-analyst,"As a Project Management Experts, you'll create and maintain Excel tools that track project milestones, deliverables, risks, and resource allocations. You'll also develop PowerPoint presentations for stakeholders, distilling complex project data into intuitive visuals and executive summaries. Your work will simulate real-world product management scenarios—like creating status updates for a program steering committee or re-allocating budgets and staffing in response to shifting priorities. By contributing authentic examples of product management deliverables, you're helping AfterQuery generate high-caliber AI training data in project management.","Strong Excel skills (Gantt charts, pivot tables, formulas)
+Experience creating executive-ready PowerPoint reports
+Background in PMO, project coordination, or operations","Design Excel trackers for schedules, risks/issues, and budget utilization
+Develop PowerPoint updates showcasing project progress and key decisions
+Conduct resource modeling to identify constraints or bottlenecks
+Collaborate with cross-functional teams to meet critical deadlines"
+Python Software Engineer,Coding,$30 - $60/hr,"Feb 15, 2025",https://experts.afterquery.com/apply/python,We are seeking skilled programmers on a contract basis to generate high-quality python code samples. This is a flexible remote position requiring 5-20 hours of work per week.,"Strong coding skills in Python
+Undergrad degree completed or in-progress in relevant field
+Internship or full-time experience from a reputable technology company
+Strong familiarity with git and GitHub
+Based in the US or Canada","Create diverse, well-structured python code samples
+Resolve git and GitHub-related issues on open-source projects
+Diagnose and fix merge conflicts, branching problems, and repository errors
+Review and implement pull requests to address codebase issues
+Implement bug fixes
+Provide clear comments and documentation within code
+Develop code that demonstrates best practices and follows industry standards"
+Quality Assurance Analyst,Quality,N/A,"May 1, 2025",https://experts.afterquery.com/apply/quality-assurance,Apply here,,
+Quant Expert (Professional/Internship experience needed),Quant,$80-120/hr+,"Jun 20, 2025",https://experts.afterquery.com/apply/quant,"Formulate trading hypotheses, source data, and build research prototypes. Implement robust backtests that account for transaction costs, slippage, and regime changes.","At least one of the following:
+Professional Experience at a Quant Firm
+Incoming Professional at a Quant Firm
+Internship Experience at a Quant Firm","Formulate trading hypotheses, source data, and build research prototypes
+Implement robust backtests that account for transaction costs, slippage, and regime changes
+Analyze performance, diagnose bias or overfitting, and iterate on model design
+Be available for short projects"
+Real Estate Investment Analyst Expert,Real Estate,$40 - $90/hr,"Mar 25, 2025",https://experts.afterquery.com/apply/real-estate-analyst,"As a part-time Real Estate Investment Analyst, you'll simulate the underwriting and presentation work typical in real estate
+private equity, brokerages, or development firms. Projects include creating Excel-based financial projections (e.g., IRR analyses, cap rate
+comparisons, and financing structures) and building PowerPoint decks for potential investors or internal approval committees.
+
+Through your anonymized real estate deliverables, you'll help AfterQuery compile AI training datasets that capture the nuanced workflows
+behind property evaluation and acquisition decisions.","Prior experience in real estate financial analysis, underwriting, or acquisitions
+Advanced Excel skills for multi-year performance modeling, sensitivity testing
+Ability to design polished investor presentations in PowerPoint","Develop Excel models detailing cash flow projections, IRR, sensitivity analyses, and scenario planning
+Create PowerPoint-based property overviews, investment theses, and comparative market analyses
+Conduct market research to identify key trends, comps, and local demand drivers
+Summarize deal feasibility and risk factors for investor or internal review"
+Risk Management / Credit Analyst Expert,Risk Management,$40 - $85/hr,"Mar 25, 2025",https://experts.afterquery.com/apply/risk-credit-analyst,"This part-time Risk Management / Credit Analyst role enables you to replicate the daily tasks of a corporate risk team,
+bank, or fintech credit department. You'll build sophisticated Excel models that measure PD (probability of default), LGD (loss given default),
+or stress test various economic scenarios. Alongside these data-heavy tasks, you'll produce executive-ready PowerPoint decks outlining
+exposures, proposed credit policies, and recommended risk mitigation actions.
+
+AfterQuery will use these anonymized risk deliverables to train AI in financial risk reasoning—a crucial domain that impacts global markets and banking.","Background in risk management, credit analysis, or related fields
+Experience building Excel-based scenario analyses and scorecards
+Ability to create succinct PowerPoint decks for senior leadership","Construct Excel scorecards for credit analysis, stress testing, and default probability calculations
+Summarize risk findings in PowerPoint for executive committees or credit policy reviews
+Analyze macroeconomic or market data to inform risk appetite decisions
+Offer recommendations to refine credit policies and reduce exposure"
+Sales Operations Analyst Expert,Sales Operations,$35 - $80/hr,"Mar 25, 2025",https://experts.afterquery.com/apply/sales-ops-analyst,"This part-time Sales Operations Analyst role involves creating Excel models that forecast bookings, track pipelines,
+and measure key performance indicators (KPIs) such as quota attainment, average deal size, and sales cycle length.
+You'll convert your data-driven insights into professional PowerPoint presentations for C-level or VP-level audiences.
+
+Projects may include territory design, commission calculations, capacity planning, and revenue predictions based on historical trends.
+Your deliverables will reflect real-world sales operations processes, helping AfterQuery build top-tier AI training datasets that mirror actual business environments.","Background in sales operations, revenue operations, or a similar function
+Proficiency in Excel for forecasting (regression, pivot tables), data manipulation
+Skilled at PowerPoint storytelling (charts, data visualizations, executive summaries)","Build Excel models for sales forecasting and quota attainment
+Create PowerPoint decks presenting pipeline health and performance insights
+Track KPIs such as win rates, ACV, conversion ratios, and pipeline velocity
+Collaborate with sales leadership to refine processes and identify revenue opportunities"
+Scientific Research Analyst (Global),Data Analysis,$15 - $20/hr,"Jun 25, 2025",https://experts.afterquery.com/apply/sci-analyst-global,"This position is for experts based OUTSIDE the US, Canada and EU. All experts based in those regions, please apply to the 'US/EU ONLY' position.
+This is a remote, part-time role supporting scientific research interpretation. You'll work with experimental results, compound data, and statistical comparisons. You'll help develop AI models capable of understanding scientific logic and process.","Strong foundation in scientific method and quantitative reasoning
+Comfort analyzing charts with statistical significance measures
+Excited to improve the future of AI applications","Create instruction sets and explanations for scientific charts and tables
+Ensure clarity and methodological soundness in outputs
+Label and write according to standardized format and structure"
+Scientific Research Analyst (US/EU ONLY),Data Analysis,$25 - $40/hr,"Jun 25, 2025",https://experts.afterquery.com/apply/sci-research,"This position is for experts based in the US, Canada and EU ONLY. All others, please apply to the 'Global' position.
+This is a remote, part-time role supporting scientific research interpretation. You'll work with experimental results, compound data, and statistical comparisons. You'll help develop AI models capable of understanding scientific logic and process.","Strong foundation in scientific method and quantitative reasoning
+Comfort analyzing charts with statistical significance measures
+Excited to improve the future of AI applications","Create instruction sets and explanations for scientific charts and tables
+Ensure clarity and methodological soundness in outputs
+Label and write according to standardized format and structure"
+Security Engineer (non-US only),Coding,Undisclosed,"Apr 17, 2025",https://experts.afterquery.com/apply/security-engineer,"AfterQuery is hiring exceptional security engineers for a special project in partnership with one of the top AI model labs. Your work will directly contribute to advancing the coding abilities of the world's best large language models (LLMs) by creating high-quality vulnerability benchmark examples. In this role, you will leverage your expertise in security analysis and remediation to generate detailed benchmark ""rows"" (each row representing a fully annotated vulnerability case) drawn from pre-existing repositories.","Security Engineering Experience: Proven experience identifying and fixing software vulnerabilities across real-world codebases.
+Programming Proficiency: Strong coding skills in at least one major language (e.g., Python, JavaScript, C/C++, or Java).
+English Communication: Able to write and speak clear, fluent, and professional technical documentation in English.
+Time Commitment: Available to start ASAP contribute 20 hours+ from the 21st to the 27th of April.","Vulnerability Analysis: Identify and analyze security vulnerabilities (e.g., OWASP Top 10, CWE Top 25, injection flaws, memory safety issues) within pre-existing repositories.
+Golden Patch Creation: Develop secure, effective patches that resolve the identified vulnerabilities without compromising functionality.
+Test Case Development: Design test cases that clearly demonstrate the presence of the vulnerability in the original code and verify its elimination post-remediation.
+Detailed Annotation: Document each benchmark row with clear descriptions, including vulnerability type, severity levels, and a comprehensive explanation of both the vulnerability's impact and the applied fix."
+Senior Marketing Engineer,Marketing,$35 - $75/hr,"Apr 14, 2025",https://experts.afterquery.com/apply/senior-marketing,senior-marketingsenior-marketingsenior-marketing,,
+Sports Analytics Expert (Global),Data Analysis,$15 - $20/hr,"Jun 25, 2025",https://experts.afterquery.com/apply/sports-analytics-global,"This position is for candidates based OUTSIDE the US, Canada and EU. Candidates based in those regions, please apply through the 'US/EU ONLY' position.
+This is a remote, part-time role for sports data analysis. You'll evaluate and annotate tables that contain player stats, team records, and league analytics. You'll create reasoning steps to teach AI how to interpret and evaluate sports outcomes.","Strong familiarity with sports statistics and game analytics
+Proficient in Excel or sports data dashboards
+Excited to improve the future of AI applications","Write problem sets based on player or team performance data
+Explain statistical outcomes and trends from game records
+Ensure clarity, consistency, and sports-specific accuracy"
+Sports Analytics Expert (US/EU ONLY),Data Analysis,$25 - $40/hr,"Jun 25, 2025",https://experts.afterquery.com/apply/sports-analytics-expert,"This position is for experts based in the US, Canada or EU ONLY. All others, please apply to the 'Global' position.
+This is a remote, part-time role for sports data analysis. You'll evaluate and annotate tables that contain player stats, team records, and league analytics. You'll create reasoning steps to teach AI how to interpret and evaluate sports outcomes.","Strong familiarity with sports statistics and game analytics
+Proficient in Excel or sports data dashboards
+Excited to improve the future of AI applications","Write problem sets based on player or team performance data
+Explain statistical outcomes and trends from game records
+Ensure clarity, consistency, and sports-specific accuracy"
+Strategic Projects Lead (Full-time),Strategy And Operations,"120,000 - 300,000 / yr","Apr 4, 2025",https://experts.afterquery.com/apply/spl,"AfterQuery is seeking exceptional candidates for our Strategic Projects Lead position. This is
+not a typical job – you'll work directly with our founding team on high-priority projects spanning
+product development, research, and operations.
+
+Compensation
+Base Salary: $110,000 - $150,000
+Total Compensation: up to $300k in cash comp in addition to equity","Intense work ethic, agency, and drive
+Passion for AI and interest in entrepreneurship
+Competitive nature and demonstrated past success
+Strong leadership experience and communication skills","Work closely with the world's leading AI labs to generate next generation datasets to push the boundaries of AI to the limits, directly generating revenue for the company
+Manage teams of experts across a wide variety of domains, like finance, software engineering, and sciences
+Collaborate with internal teams to develop groundbreaking AI research
+Drive initiatives across the company as an early hire
+Support the team across various operational initiatives"
+Supply Chain Analyst Expert,Supply Chain,$35 - $75/hr,"Mar 24, 2025",https://experts.afterquery.com/apply/supply-chain-analyst,"This is a remote, part-time project-based role focused on generating Excel-based supply chain models and PowerPoint summaries. You'll simulate workflows like those used in demand planning, procurement, inventory management, and logistics. Projects are asynchronous and flexible, with ~10 hours/week expected when active.","Degree in Supply Chain, Industrial Engineering, Operations, or related field
+Proficiency in Excel for logistics or supply chain modeling
+Familiarity with supply planning concepts like EOQ, reorder point, safety stock
+Excited to improve the future of AI applications","Build Excel simulations of order cycles, inventory flow, lead times, and vendor cost scenarios
+Create PowerPoint decks presenting network designs, transportation tradeoffs, and performance summaries
+Produce mock deliverables typical of internal supply chain teams or logistics consulting engagements"
+SWE Test,Software,$35 - $75/hr,"May 17, 2025",https://experts.afterquery.com/apply/swe-test,testestestest,,

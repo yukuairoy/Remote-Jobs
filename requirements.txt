@@ -1,0 +1,10 @@
+selenium
+webdriver-manager
+beautifulsoup4
+ftfy
+requests
+google-genai
+Flask==2.3.3
+pandas==2.1.1
+numpy==1.24.3
+Werkzeug==2.3.7

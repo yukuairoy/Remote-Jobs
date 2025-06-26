@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Human Data Job Market</title>
+    <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="/static/css/style.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <!-- Hero Section -->
+    <div class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8">
+                    <h1 class="display-4 fw-bold mb-3">Human Data Job Market</h1>
+                    <p class="lead mb-4">Jobs from Mercor, Outlier, Alignerr, AfterQuery, Invisible, and Handshake</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container mt-5">
+        <!-- Navigation Tabs -->
+        <div class="container-fluid">
+            <ul class="nav nav-tabs" id="mainTabs" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="all-jobs-tab" data-bs-toggle="tab" data-bs-target="#all-jobs" type="button" role="tab">
+                        <i class="fas fa-list me-2"></i>All Jobs
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="mercor-tab" data-bs-toggle="tab" data-bs-target="#mercor-jobs" type="button" role="tab">
+                        <img src="/static/logos/Mercor.svg" alt="Mercor" class="me-2" style="height: 16px; width: auto;">Mercor Jobs
+                    </button>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Tab Content -->
+        <div class="tab-content" id="mainTabContent">
+            <!-- All Jobs Tab -->
+            <div class="tab-pane fade show active" id="all-jobs" role="tabpanel">
+                <div class="container-fluid mt-4">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h6 class="mb-0"><i class="fas fa-filter me-2"></i>Filters</h6>
+                                </div>
+                                <div class="card-body">
+                                    <div class="mb-3">
+                                        <label class="form-label">Company</label>
+                                        <select class="form-select" id="allJobsCompanyFilter">
+                                            <option value="all">All Companies</option>
+                                            <option value="mercor">Mercor</option>
+                                            <option value="afterquery">AfterQuery</option>
+                                            <option value="alignerr">Alignerr</option>
+                                            <option value="handshake">Handshake</option>
+                                            <option value="outlier">Outlier</option>
+                                        </select>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label class="form-label">Skill Category</label>
+                                        <select class="form-select" id="allJobsTagFilter">
+                                            <option value="all">All Skills</option>
+                                        </select>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label class="form-label">Search</label>
+                                        <input type="text" class="form-control" id="allJobsSearch" placeholder="Search jobs...">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-9">
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <h5>All Job Listings</h5>
+                                <div class="d-flex gap-2">
+                                    <button class="btn btn-outline-secondary btn-sm" onclick="loadAllJobs()">
+                                        <i class="fas fa-refresh me-1"></i>Refresh
+                                    </button>
+                                </div>
+                            </div>
+                            <div id="allJobsContainer" class="row">
+                                <!-- Jobs will be loaded here -->
+                            </div>
+                            <div class="d-flex justify-content-center mt-4">
+                                <nav aria-label="All jobs pagination">
+                                    <ul class="pagination" id="allJobsPagination">
+                                        <!-- Pagination will be generated here -->
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mercor Jobs Tab -->
+            <div class="tab-pane fade" id="mercor-jobs" role="tabpanel">
+                <div class="container-fluid mt-4">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h6 class="mb-0"><i class="fas fa-filter me-2"></i>Filters</h6>
+                                </div>
+                                <div class="card-body">
+                                    <div class="mb-3">
+                                        <label class="form-label">Skill Category</label>
+                                        <select class="form-select" id="mercorTagFilter">
+                                            <option value="all">All Skills</option>
+                                        </select>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label class="form-label">Search</label>
+                                        <input type="text" class="form-control" id="mercorSearch" placeholder="Search Mercor jobs...">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-9">
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <h5>Mercor Job Listings</h5>
+                                <div class="d-flex gap-2">
+                                    <button class="btn btn-outline-secondary btn-sm" onclick="loadMercorJobs()">
+                                        <i class="fas fa-refresh me-1"></i>Refresh
+                                    </button>
+                                </div>
+                            </div>
+                            <div id="mercorJobsContainer" class="row">
+                                <!-- Jobs will be loaded here -->
+                            </div>
+                            <div class="d-flex justify-content-center mt-4">
+                                <nav aria-label="Mercor jobs pagination">
+                                    <ul class="pagination" id="mercorPagination">
+                                        <!-- Pagination will be generated here -->
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Similar Jobs Modal -->
+    <div class="modal fade" id="similarJobsModal" tabindex="-1" aria-labelledby="similarJobsModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="similarJobsModalLabel">Similar Jobs from Competitors</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div id="targetJobInfo" class="alert alert-info mb-3">
+                        <!-- Target job info will be displayed here -->
+                    </div>
+                    <div id="similarJobsContainer">
+                        <!-- Similar jobs will be displayed here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        let currentPage = 1;
+        let jobsPerPage = 12;
+        let allJobs = [];
+        let mercorJobs = [];
+        let tags = {};
+
+        // Helper function to get company logo
+        function getCompanyLogo(company) {
+            const logoMap = {
+                'mercor': '/static/logos/Mercor.svg',
+                'afterquery': '/static/logos/Afterquery.jpeg',
+                'alignerr': '/static/logos/Alignerr.jpeg',
+                'handshake': '/static/logos/Handshake.png',
+                'outlier': '/static/logos/Outlier.jpeg',
+                'invisible': '/static/logos/Invisible.jpg'
+            };
+            return logoMap[company] || null;
+        }
+
+        // Initialize the application
+        document.addEventListener('DOMContentLoaded', function() {
+            loadTags();
+            loadAllJobs();
+            
+            // Set up event listeners
+            document.getElementById('allJobsCompanyFilter').addEventListener('change', loadAllJobs);
+            document.getElementById('allJobsTagFilter').addEventListener('change', loadAllJobs);
+            document.getElementById('allJobsSearch').addEventListener('input', debounce(loadAllJobs, 300));
+            
+            document.getElementById('mercorTagFilter').addEventListener('change', loadMercorJobs);
+            document.getElementById('mercorSearch').addEventListener('input', debounce(loadMercorJobs, 300));
+            
+            // Load Mercor jobs on tab click
+            document.getElementById('mercor-tab').addEventListener('click', function() {
+                currentPage = 1;
+                setTimeout(loadMercorJobs, 100);
+            });
+
+            document.getElementById('all-jobs-tab').addEventListener('click', function() {
+                currentPage = 1;
+                setTimeout(loadAllJobs, 100);
+            });
+        });
+
+        async function loadTags() {
+            try {
+                const response = await fetch('/api/tags');
+                tags = await response.json();
+                
+                // Populate tag filters
+                const allJobsTagFilter = document.getElementById('allJobsTagFilter');
+                const mercorTagFilter = document.getElementById('mercorTagFilter');
+                
+                Object.entries(tags).forEach(([id, name]) => {
+                    const option = document.createElement('option');
+                    option.value = id;
+                    option.textContent = name;
+                    allJobsTagFilter.appendChild(option.cloneNode(true));
+                    mercorTagFilter.appendChild(option);
+                });
+            } catch (error) {
+                console.error('Error loading tags:', error);
+            }
+        }
+
+        async function loadAllJobs() {
+            const container = document.getElementById('allJobsContainer');
+            container.innerHTML = '<div class="col-12 text-center"><i class="fas fa-spinner fa-spin me-2"></i>Loading all jobs...</div>';
+            
+            try {
+                const company = document.getElementById('allJobsCompanyFilter').value;
+                const tag = document.getElementById('allJobsTagFilter').value;
+                const search = document.getElementById('allJobsSearch').value;
+                
+                let url = '/api/jobs?';
+                if (company !== 'all') url += `company=${company}&`;
+                if (tag !== 'all') url += `tag=${tag}&`;
+                if (search) url += `search=${encodeURIComponent(search)}&`;
+                
+                const response = await fetch(url);
+                allJobs = await response.json();
+                
+                displayAllJobs();
+            } catch (error) {
+                console.error('Error loading all jobs:', error);
+                container.innerHTML = '<div class="col-12 text-center text-danger">Error loading jobs</div>';
+            }
+        }
+
+        function displayAllJobs() {
+            const container = document.getElementById('allJobsContainer');
+            const startIndex = (currentPage - 1) * jobsPerPage;
+            const endIndex = startIndex + jobsPerPage;
+            const jobsToShow = allJobs.slice(startIndex, endIndex);
+            
+            if (jobsToShow.length === 0) {
+                container.innerHTML = '<div class="col-12 text-center text-muted">No jobs found</div>';
+                return;
+            }
+            
+            container.innerHTML = jobsToShow.map(job => `
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card job-card h-100">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <h6 class="card-title">${job.title}</h6>
+                                    <p class="text-muted mb-2">
+                                        ${getCompanyLogo(job.company) ? `<img src="${getCompanyLogo(job.company)}" alt="${job.company}" class="company-logo me-2" style="height: 20px; width: auto;">` : `<i class="fas fa-building me-1"></i>${job.company}`}
+                                        <i class="fas fa-map-marker-alt ms-2 me-1"></i>${job.location}
+                                    </p>
+                                    <p class="card-text">${job.description}</p>
+                                    <div class="mb-2">
+                                        ${job.tag_names.map(tag => `<span class="tag-badge">${tag}</span>`).join('')}
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    ${job.salary && job.salary !== 'null' && job.salary !== 'undefined' && job.salary !== 'Salary not specified' && job.salary.trim() !== '' ? `<div class="salary-highlight mb-2">${job.salary}</div>` : ''}
+                                    <div class="d-grid gap-2">
+                                        <a href="${job.url}" target="_blank" class="btn btn-outline-primary btn-sm">
+                                            <i class="fas fa-external-link-alt me-1"></i>View Job
+                                        </a>
+                                        <button class="btn btn-outline-success btn-sm" onclick="findSimilarJobs('${job.id}')">
+                                            <i class="fas fa-search me-1"></i>Find Similar
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `).join('');
+            
+            updateAllJobsPagination();
+        }
+
+        function updateAllJobsPagination() {
+            const totalPages = Math.ceil(allJobs.length / jobsPerPage);
+            const pagination = document.getElementById('allJobsPagination');
+            
+            if (totalPages <= 1) {
+                pagination.innerHTML = '';
+                return;
+            }
+            
+            let paginationHTML = '';
+            
+            // Previous button
+            paginationHTML += `
+                <li class="page-item ${currentPage === 1 ? 'disabled' : ''}">
+                    <a class="page-link" href="#" onclick="changeAllJobsPage(${currentPage - 1})">Previous</a>
+                </li>
+            `;
+            
+            // Page numbers
+            for (let i = 1; i <= totalPages; i++) {
+                if (i === 1 || i === totalPages || (i >= currentPage - 2 && i <= currentPage + 2)) {
+                    paginationHTML += `
+                        <li class="page-item ${i === currentPage ? 'active' : ''}">
+                            <a class="page-link" href="#" onclick="changeAllJobsPage(${i})">${i}</a>
+                        </li>
+                    `;
+                } else if (i === currentPage - 3 || i === currentPage + 3) {
+                    paginationHTML += '<li class="page-item disabled"><span class="page-link">...</span></li>';
+                }
+            }
+            
+            // Next button
+            paginationHTML += `
+                <li class="page-item ${currentPage === totalPages ? 'disabled' : ''}">
+                    <a class="page-link" href="#" onclick="changeAllJobsPage(${currentPage + 1})">Next</a>
+                </li>
+            `;
+            
+            pagination.innerHTML = paginationHTML;
+        }
+
+        function changeAllJobsPage(page) {
+            const totalPages = Math.ceil(allJobs.length / jobsPerPage);
+            if (page >= 1 && page <= totalPages) {
+                currentPage = page;
+                displayAllJobs();
+            }
+        }
+
+        async function loadMercorJobs() {
+            const container = document.getElementById('mercorJobsContainer');
+            container.innerHTML = '<div class="col-12 text-center"><i class="fas fa-spinner fa-spin me-2"></i>Loading Mercor jobs...</div>';
+            
+            try {
+                const tag = document.getElementById('mercorTagFilter').value;
+                const search = document.getElementById('mercorSearch').value;
+                
+                let url = '/api/jobs?company=mercor';
+                if (tag !== 'all') url += `&tag=${tag}`;
+                if (search) url += `&search=${encodeURIComponent(search)}`;
+                
+                const response = await fetch(url);
+                mercorJobs = await response.json();
+                
+                displayMercorJobs();
+            } catch (error) {
+                console.error('Error loading Mercor jobs:', error);
+                container.innerHTML = '<div class="col-12 text-center text-danger">Error loading Mercor jobs</div>';
+            }
+        }
+
+        function displayMercorJobs() {
+            const container = document.getElementById('mercorJobsContainer');
+            const startIndex = (currentPage - 1) * jobsPerPage;
+            const endIndex = startIndex + jobsPerPage;
+            const jobsToShow = mercorJobs.slice(startIndex, endIndex);
+            
+            if (jobsToShow.length === 0) {
+                container.innerHTML = '<div class="col-12 text-center text-muted">No Mercor jobs found</div>';
+                return;
+            }
+            
+            container.innerHTML = jobsToShow.map(job => `
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card job-card h-100">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <h6 class="card-title">${job.title}</h6>
+                                    <p class="text-muted mb-2">
+                                        ${getCompanyLogo(job.company) ? `<img src="${getCompanyLogo(job.company)}" alt="${job.company}" class="company-logo me-2" style="height: 20px; width: auto;">` : `<i class="fas fa-building me-1"></i>${job.company}`}
+                                        ${job.location && job.location !== 'Remote' ? `<i class="fas fa-map-marker-alt ms-2 me-1"></i>${job.location}` : ''}
+                                    </p>
+                                    <p class="card-text">${job.description}</p>
+                                    <div class="mb-2">
+                                        ${job.tag_names.map(tag => `<span class="tag-badge">${tag}</span>`).join('')}
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    ${job.salary && job.salary !== 'null' && job.salary !== 'undefined' && job.salary !== 'Salary not specified' && job.salary.trim() !== '' ? `<div class="salary-highlight mb-2">${job.salary}</div>` : ''}
+                                    <div class="d-grid gap-2">
+                                        <a href="${job.url}" target="_blank" class="btn btn-outline-primary btn-sm">
+                                            <i class="fas fa-external-link-alt me-1"></i>View Job
+                                        </a>
+                                        <button class="btn btn-outline-success btn-sm" onclick="findSimilarJobs('${job.id}')">
+                                            <i class="fas fa-search me-1"></i>Find Similar
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `).join('');
+            
+            updateMercorPagination();
+        }
+
+        function updateMercorPagination() {
+            const totalPages = Math.ceil(mercorJobs.length / jobsPerPage);
+            const pagination = document.getElementById('mercorPagination');
+            
+            if (totalPages <= 1) {
+                pagination.innerHTML = '';
+                return;
+            }
+            
+            let paginationHTML = '';
+            
+            // Previous button
+            paginationHTML += `
+                <li class="page-item ${currentPage === 1 ? 'disabled' : ''}">
+                    <a class="page-link" href="#" onclick="changeMercorPage(${currentPage - 1})">Previous</a>
+                </li>
+            `;
+            
+            // Page numbers
+            for (let i = 1; i <= totalPages; i++) {
+                if (i === 1 || i === totalPages || (i >= currentPage - 2 && i <= currentPage + 2)) {
+                    paginationHTML += `
+                        <li class="page-item ${i === currentPage ? 'active' : ''}">
+                            <a class="page-link" href="#" onclick="changeMercorPage(${i})">${i}</a>
+                        </li>
+                    `;
+                } else if (i === currentPage - 3 || i === currentPage + 3) {
+                    paginationHTML += '<li class="page-item disabled"><span class="page-link">...</span></li>';
+                }
+            }
+            
+            // Next button
+            paginationHTML += `
+                <li class="page-item ${currentPage === totalPages ? 'disabled' : ''}">
+                    <a class="page-link" href="#" onclick="changeMercorPage(${currentPage + 1})">Next</a>
+                </li>
+            `;
+            
+            pagination.innerHTML = paginationHTML;
+        }
+
+        function changeMercorPage(page) {
+            const totalPages = Math.ceil(mercorJobs.length / jobsPerPage);
+            if (page >= 1 && page <= totalPages) {
+                currentPage = page;
+                displayMercorJobs();
+            }
+        }
+
+        function debounce(func, wait) {
+            let timeout;
+            return function executedFunction(...args) {
+                const later = () => {
+                    clearTimeout(timeout);
+                    func(...args);
+                };
+                clearTimeout(timeout);
+                timeout = setTimeout(later, wait);
+            };
+        }
+
+        async function findSimilarJobs(jobId) {
+            // Validate job ID
+            if (!jobId || jobId === 'null' || jobId === 'undefined' || jobId === '') {
+                console.error('Invalid job ID:', jobId);
+                alert('Error: Invalid job ID. Please try again.');
+                return;
+            }
+
+            const modal = new bootstrap.Modal(document.getElementById('similarJobsModal'));
+            const targetJobInfo = document.getElementById('targetJobInfo');
+            const similarJobsContainer = document.getElementById('similarJobsContainer');
+            
+            // Show loading state
+            targetJobInfo.innerHTML = '<i class="fas fa-spinner fa-spin me-2"></i>Finding similar jobs...';
+            similarJobsContainer.innerHTML = '';
+            modal.show();
+
+            try {
+                const response = await fetch(`/api/similar-jobs/${jobId}`);
+                
+                // Check if response is JSON
+                const contentType = response.headers.get('content-type');
+                if (!contentType || !contentType.includes('application/json')) {
+                    throw new Error('Server returned non-JSON response. Please try again.');
+                }
+                
+                const data = await response.json();
+                
+                if (!response.ok) {
+                    throw new Error(data.error || 'Failed to load similar jobs');
+                }
+                
+                // Display target job info
+                targetJobInfo.innerHTML = `
+                    <strong>Target Job:</strong> ${data.target_job.title} (${data.target_job.company})
+                    <br><small class="text-muted">Skills: ${data.target_job.tag_names.join(', ')}</small>
+                `;
+                
+                // Display similar jobs
+                if (data.similar_jobs.length === 0) {
+                    similarJobsContainer.innerHTML = `
+                        <div class="alert alert-info">
+                            <i class="fas fa-info-circle me-2"></i>
+                            No similar jobs found from competitors with matching skills.
+                        </div>
+                    `;
+                } else {
+                    similarJobsContainer.innerHTML = data.similar_jobs.map(job => `
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <h6 class="card-title">${job.title}</h6>
+                                        <p class="text-muted mb-2">
+                                            ${getCompanyLogo(job.company) ? `<img src="${getCompanyLogo(job.company)}" alt="${job.company}" class="company-logo me-2" style="height: 20px; width: auto;">` : `<i class="fas fa-building me-1"></i>${job.company}`}
+                                            ${job.location && job.location !== 'Remote' ? `<i class="fas fa-map-marker-alt ms-2 me-1"></i>${job.location}` : ''}
+                                        </p>
+                                        <p class="card-text">${job.description && job.description !== 'Description not available' ? (job.description.length > 200 ? job.description.substring(0, 200) + '...' : job.description) : '<em class="text-muted">No description available</em>'}</p>
+                                        <div class="mb-2">
+                                            ${job.tag_names.map(tag => `<span class="tag-badge">${tag}</span>`).join('')}
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 text-end">
+                                        ${job.salary && job.salary !== 'null' && job.salary !== 'undefined' && job.salary !== 'Salary not specified' && job.salary.trim() !== '' ? `<div class="mb-2"><strong>${job.salary}</strong></div>` : ''}
+                                        ${job.url ? `<a href="${job.url}" target="_blank" class="btn btn-sm btn-outline-primary">View Job</a>` : '<span class="text-muted small">No direct link</span>'}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    `).join('');
+                }
+                
+            } catch (error) {
+                console.error('Error:', error);
+                targetJobInfo.innerHTML = `
+                    <div class="alert alert-danger">
+                        <i class="fas fa-exclamation-triangle me-2"></i>
+                        Error loading similar jobs: ${error.message}
+                    </div>
+                `;
+                similarJobsContainer.innerHTML = '';
+            }
+        }
+    </script>
+</body>
+</html> 
